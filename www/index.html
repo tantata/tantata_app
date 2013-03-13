@@ -23,11 +23,18 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+        <title>Tantata APP</title>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
+	
+<div data-role="page" id="home">
+    <div data-role="content">
+ <div class="app">
             <div id="deviceready">
                 <p class="status pending blink">Connecting to Device</p>
                 <p class="status complete blink hide">Device is Ready</p>
@@ -38,5 +45,203 @@
         <script type="text/javascript">
             app.initialize();
         </script>
-    </body>
+    </div>
+  			  
+					    				<!-- MENU -->
+				<div data-theme="a" data-role="footer" data-position="fixed" data-id="menu_estatico">
+    				<div data-role="navbar" data-iconpos="top">
+           				 <ul>
+                			<li>
+                   				 <a href="#home" data-transition="fade" data-theme="a" data-icon="star"
+                   				 class="ui-btn-active ui-state-persist">
+                        		TANTATA
+                    			</a>
+                			</li>
+               				<li>
+                   				<a href="#who" data-transition="fade" data-theme="a" data-icon="">
+                       			Who
+                    			</a>
+                			</li>
+                			<li>
+                    			<a href="#portfolio" data-transition="fade" data-theme="a" data-icon="">
+                        		Portfolio
+                    			</a>
+                			</li>
+                			<li>
+                   				<a href="#" data-transition="fade" data-theme="a" data-icon="">
+                        		Blog
+                    			</a>
+                			</li>
+                			<li>
+                    			<a href="contact.html" data-transition="fade" data-theme="a" data-icon="">
+                        		Contact
+                    			</a>
+                			</li>
+            			</ul>
+       				</div>
+				</div>
+				<!-- MENU -->
+</div>
+
+
+<!-- Start of who page -->
+<div data-role="page" id="who">
+
+	<div data-role="header">
+		<h1>WHO WE ARE?</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<div id="quien">
+            <img src="img/rafa.jpg" alt="Rafa Esteve"><h2>Rafa Esteve</h2>
+			<b>Industrial desing Engeneer</b><br> Tantata co-founder, web applications expert, graphic designer, teacher, father and friend of his friends.
+        </div>
+		<div id="quien">
+            <img src="img/vir.png" alt="Virgilio Garbayo"><h2>Virgilio Garbayo</h2>
+        
+		<b>IT Director & Project Manager</b><br>  Tantata co-founder, physician and computer engineer, travelcoholic, sea lover and a very curious person.
+		</div><!-- /content -->
+
+				    				<!-- MENU -->
+				<div data-theme="a" data-role="footer" data-position="fixed" data-id="menu_estatico">
+    				<div data-role="navbar" data-iconpos="top">
+           				 <ul>
+                			<li>
+                   				 <a href="#home" data-transition="fade" data-theme="a" data-icon="star"
+                   				 class="ui-btn-active ui-state-persist">
+                        		TANTATA
+                    			</a>
+                			</li>
+               				<li>
+                   				<a href="#who" data-transition="fade" data-theme="a" data-icon="">
+                       			Who
+                    			</a>
+                			</li>
+                			<li>
+                    			<a href="#portfolio" data-transition="fade" data-theme="a" data-icon="">
+                        		Portfolio
+                    			</a>
+                			</li>
+                			<li>
+                   				<a href="#" data-transition="fade" data-theme="a" data-icon="">
+                        		Blog
+                    			</a>
+                			</li>
+                			<li>
+                    			<a href="contact.html" data-transition="fade" data-theme="a" data-icon="">
+                        		Contact
+                    			</a>
+                			</li>
+            			</ul>
+       				</div>
+				</div>
+				<!-- MENU -->
+
+</div><!-- /page -->
+
+<!-- Start of portfolio page -->
+<div data-role="page" id="portfolio">
+
+	<div data-role="header">
+		<h1>Portfolio</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+		<p><a href="#foo">Back to foo</a></p>
+	</div><!-- /content -->
+
+	    		    				<!-- MENU -->
+				<div data-theme="a" data-role="footer" data-position="fixed" data-id="menu_estatico">
+    				<div data-role="navbar" data-iconpos="top">
+           				 <ul>
+                			<li>
+                   				 <a href="#home" data-transition="fade" data-theme="a" data-icon="star"
+                   				 class="ui-btn-active ui-state-persist">
+                        		TANTATA
+                    			</a>
+                			</li>
+               				<li>
+                   				<a href="#who" data-transition="fade" data-theme="a" data-icon="">
+                       			Who
+                    			</a>
+                			</li>
+                			<li>
+                    			<a href="#portfolio" data-transition="fade" data-theme="a" data-icon="">
+                        		Portfolio
+                    			</a>
+                			</li>
+                			<li>
+                   				<a href="#" data-transition="fade" data-theme="a" data-icon="">
+                        		Blog
+                    			</a>
+                			</li>
+                			<li>
+                    			<a href="contact.html" data-transition="fade" data-theme="a" data-icon="">
+                        		Contact
+                    			</a>
+                			</li>
+            			</ul>
+       				</div>
+				</div>
+				<!-- MENU -->
+
+
+</div><!-- /page -->
+
+
+<!-- Start of portfolio page -->
+<div data-role="page" id="contact">
+
+	<div data-role="header">
+		<h1>CONTACT</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">
+		<p>The best to contact us is filling that contact form</p>
+
+		<img src="https://maps.googleapis.com/maps/api/staticmap?center=castellon de la plana&amp;zoom=14&amp;size=288x200&amp;markers=Río Támesis 3&amp;sensor=false"
+        width="288" height="200">
+
+	</div><!-- /content -->
+
+	    				<!-- MENU -->
+				<div data-theme="a" data-role="footer" data-position="fixed" data-id="menu_estatico">
+    				<div data-role="navbar" data-iconpos="top">
+           				 <ul>
+                			<li>
+                   				 <a href="#home" data-transition="fade" data-theme="a" data-icon="star"
+                   				 class="ui-btn-active ui-state-persist">
+                        		TANTATA
+                    			</a>
+                			</li>
+               				<li>
+                   				<a href="#who" data-transition="fade" data-theme="a" data-icon="">
+                       			Who
+                    			</a>
+                			</li>
+                			<li>
+                    			<a href="#portfolio" data-transition="fade" data-theme="a" data-icon="">
+                        		Portfolio
+                    			</a>
+                			</li>
+                			<li>
+                   				<a href="#" data-transition="fade" data-theme="a" data-icon="">
+                        		Blog
+                    			</a>
+                			</li>
+                			<li>
+                    			<a href="#contact" data-transition="fade" data-theme="a" data-icon="">
+                        		Contact
+                    			</a>
+                			</li>
+            			</ul>
+       				</div>
+				</div>
+				<!-- MENU -->
+
+</div><!-- /page -->
+
+
+           </body>
 </html>
